@@ -1,29 +1,33 @@
-# Create React Express App
+QUICK UPS
 
-## About This Boilerplate
+---
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+### What This Application Does
+Quick Ups is a peer-to-peer delivery system. 
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Through Quick Ups people who do not own a truck or other large vehicle are able to request a pick up of large purchased items by someone who has registered their truck or other large vehicle to be used as a resource through the Quick Ups website.
 
-## Starting the app locally
+​
+---
+### How it Works
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+Click [here]() to go to Quick Ups, from here the user will be prompted to log in to access the features on the website. Once logged in the user can choose to request a pick up, claim a job, and view current jobs. 
+​
+---
+### Technologies Used
+* HTML | CSS
+* Heroku
+* JavaScript
+* Sequelize
+* [Bootstrap](https://getbootstrap.com/)
+* [React](https://reactjs.org/)
+* [Auth0](https://auth0.com/)
 
-```
-npm install
-```
+---
+### © 2020 Built By
+​
+ - [Alexander Pham](https://github.com/925work): Team Lead, Front End [LinkedIn](https://www.linkedin.com/in/alexanderpham626/)
+ - [Charissa Beaty](https://github.com/charbeaty): Front End, Quality Assurance [LinkedIn](https://www.linkedin.com/in/charissa-beaty-61b99997/)
+ - [Myles Dewaal](https://github.com/myles-dewaal): Back End, MySQL  [LinkedIn](https://www.linkedin.com/in/myles-dewaal-40982b189/)
+ - [Nelson Knight](https://github.com/nelsontknight): Back End, MySQL [LinkedIn](https://www.linkedin.com/in/nelson-knight-40202b189/)
 
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
