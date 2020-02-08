@@ -3,7 +3,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3000;
 const app = express();
 
-const db = require("./modules");
+const db = require("./client/modules");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
