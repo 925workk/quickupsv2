@@ -75,7 +75,7 @@ const Reviews = () => {
                         </div>
                     </div>
                     <div className='col-md-12'>
-                        <div className="card-deck mt-4 drivercardgroup text-center">
+                        <div className="card-deck mt-4 drivercardgroup text-center mx-auto">
                             <div className="card drivercard">
                                 <img className="card-img-top driverimage" src="https://i.pinimg.com/736x/02/4b/c6/024bc6921cf802ea89285d38c8b8a667.jpg" alt="truckdriver"/>
                                 <div className="card-body">
