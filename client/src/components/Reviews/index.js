@@ -70,7 +70,7 @@ const Reviews = () => {
                                 <i className="fa fa-star d-inline" aria-hidden="true"></i>
                                 <i className="fa fa-star d-inline" aria-hidden="true"></i>
                             </div>
-                            <p className="card-text">SUPER easy to use. I would definitely recommend to a friend. I bought a fridge from RC Willey and they were able to get it to me that day.</p>
+                            <p className="card-text">SUPER easy to use. I would definitely recommend to a friend. I bought a fridge from RC Willey. Delivered quickly.</p>
                         </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Reviews = () => {
                                 <img className="card-img-top driverimage" src="https://atozhairstyles.com/wp-content/uploads/2017/07/15-Golden-Locks.jpg" alt="truckdriver2"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Zachary (Driver)</h5>
-                                <p className="card-text">Very fun way to make cash. I have met some really cool peopleon my routes as well.</p>
+                                <p className="card-text">Very fun way to make cash. I have met some really cool people on my routes as well.</p>
                                 </div>
                             </div>
                         </div>

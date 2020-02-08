@@ -36,7 +36,7 @@ const Availablejobs = () => {
                         </ul>
                         <ul className="list-group col-md-5 d-inline mb-3">
                         <li className="list-group-item">Delivery address: {item.dropOffAddress}</li>
-                        <li className="list-group-item">Pick up zip{item.dropOffZip}</li>
+                        <li className="list-group-item">Pick up zip: {item.dropOffZip}</li>
                         <li className="list-group-item">Flights of stairs: {item.dropOffFloor}</li>
                       </ul>
                       <div className='col-md-2'>
