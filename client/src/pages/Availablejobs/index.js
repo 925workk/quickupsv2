@@ -30,14 +30,14 @@ const Availablejobs = () => {
                       <div className="row">
                         <p className="card-text col-md-12"><small className="text-muted">{item.merchandise}</small></p>
                         <ul className="list-group col-md-5 d-inline mb-3">
-                        <li className="list-group-item">{item.pickUpAddress}</li>
-                          <li className="list-group-item">{item.pickUpZip}</li>
-                          <li className="list-group-item">{item.pickUpFloor}</li>
+                        <li className="list-group-item">Pick up address: {item.pickUpAddress}</li>
+                          <li className="list-group-item">Pick up zip: {item.pickUpZip}</li>
+                          <li className="list-group-item">Flights of stairs: {item.pickUpFloor}</li>
                         </ul>
                         <ul className="list-group col-md-5 d-inline mb-3">
-                        <li className="list-group-item">{item.dropOffAddress}</li>
-                        <li className="list-group-item">{item.dropOffZip}</li>
-                        <li className="list-group-item">{item.dropOffFloor}</li>
+                        <li className="list-group-item">Delivery address: {item.dropOffAddress}</li>
+                        <li className="list-group-item">Pick up zip{item.dropOffZip}</li>
+                        <li className="list-group-item">Flights of stairs: {item.dropOffFloor}</li>
                       </ul>
                       <div className='col-md-2'>
                 <h3>Payout: <span className="badge badge-secondary payoutbadge">${item.payOut}</span></h3>
