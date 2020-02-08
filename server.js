@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(express.static("public"));
 // Define API routes here
-require("./routes/apiRoutes")(app);
+require(".client/routes/apiRoutes")(app);
 // Send every other request to the React app
 // Define any API routes before this runs
 app.get("*", (req, res) => {
