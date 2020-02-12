@@ -80,7 +80,7 @@ const Reviews = () => {
                                 <img className="card-img-top driverimage" src="https://i.pinimg.com/736x/02/4b/c6/024bc6921cf802ea89285d38c8b8a667.jpg" alt="truckdriver"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Jeremy (Driver)</h5>
-                                <p className="card-text">Great extra money. I love being able to get some extra money whenever I want. </p>
+                                <p className="card-text">Great extra money for the family. I love being able to a lot of extra money whenever I want. </p>
                                 </div>
                             </div>
                             <div className="card drivercard">
