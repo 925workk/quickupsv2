@@ -127,7 +127,7 @@ const Meettheteam = () => {
                                     </div>
                                     <div className="col-md-5 d-inline mb-3">
                                         <div className="biocontainer">
-                                            <h3>Charissa Beaty</h3>
+                                            <h3>Nelson Knight</h3>
                                             <h4>Back End + DOM Render</h4>
                                             <a  className="bioemail" href="mailto:nelson.knight92@gmail.com">nelson.knight92@gmail.com</a>
                                             <hr className="lightgreyline"></hr>
