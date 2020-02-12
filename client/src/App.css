@@ -221,6 +221,7 @@
 
 .drivercard{
   width: 250px !important;
+  margin: auto;
   padding-top: 50px;
   border: none;
   background: rgb(255,255,255);
@@ -413,52 +414,77 @@ hr {
 .sorrybutton:hover{
   color: yellow;
 }
-
-#smoke {
-	position: relative;
-	z-index: 3;
-	width: 1px; height: 160px;
-  left: 30% ; bottom: -110px;
-  transform: rotate(-90deg);
+/*-------- The Team ----------*/
+.theteam{
+  position: relative;
+  top: 25px;
 }
 
-/* smoke balls */
-
-#smoke span { 
-  display: block;
-	position: absolute;
-	bottom: -35px; left: 50%; margin-left:-20px;
-	height: 0px; width: 0px;
-	border: 35px solid #4b4b4b;
-	border-radius: 35px;
-	left: -14px; opacity: 0;
-	transform: scale(0.2);
+.nicetomeet{
+  position: relative;
+  bottom: 15px;
+}
+.theteam{
+  font-size: 22px;
+  color: #248232;
 }
 
-/* Smoke animation */
-
-@keyframes smokeL {
-	0%   { transform: scale(0.2) translate(0, 0) }
-	10%  { opacity: 1; transform: scale(0.2) translate(0, -5px) }
-	100% { opacity: 0; transform: scale(1) translate(-20px, -130px) }
+.nicetomeet{
+  font-family: cursive;
+  font-size: 38px;
 }
 
-@keyframes smokeR {
-	0%   { transform: scale(0.2) translate(0, 0) }
-	10%  { opacity: 1; transform: scale(0.2) translate(0, -5px) }
-	100% { opacity: 0; transform: scale(1) translate(20px, -130px) }
+.teamimage{
+  border: #bfbfbf 6px solid;
+  border-radius: 130px;
+}
+.teamlink{
+  font-size: 22px;
 }
 
-#smoke .s0 { animation: smokeL 10s 0s infinite }
-#smoke .s1 { animation: smokeR 10s 1s infinite }
-#smoke .s2 { animation: smokeL 10s 2s infinite }
-#smoke .s3 { animation: smokeR 10s 3s infinite }
-#smoke .s4 { animation: smokeL 10s 4s infinite }
-#smoke .s5 { animation: smokeR 10s 5s infinite }
-#smoke .s6 { animation: smokeL 10s 6s infinite }
-#smoke .s7 { animation: smokeR 10s 7s infinite }
-#smoke .s8 { animation: smokeL 10s 8s infinite }
-#smoke .s9 { animation: smokeR 10s 9s infinite }
+.teamatag{
+  justify-content: right;
+  margin-right: 25px;
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+.teamatag:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+.leftofcard{
+  text-align: right;
+}
+
+.biocontainer{
+  margin-left: 10px;
+}
+
+.teamcard{
+  border:none;
+  border-bottom: #bfbfbf 3px solid;
+}
+.teamcardlast{
+  border:none;
+}
+
+#darkgreyline{
+  color:#3f3f3f !important;
+}
+
+.lightgreyline{
+  color: #bfbfbf;
+}
+
+.bioemail{
+  font-size: 18px;
+  text-decoration: underline;
+  color: #040f0f;
+}
 /*-------- Global ----------*/
 .emptydiv{
   height: 70px;   
@@ -477,13 +503,59 @@ hr {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 993px) {
+  .emptydiv { 
+    height:20px ;
+  }
+
+  .teamlink{
+    font-size: 16px;
+  }
+
+  .commenticon{
+    font-size: 30px;
+  }
+
+  .name{
+    font-size: 18px;
+  }
+
+  .teamatag{
+    font-size: 12px;
+  }
+  .driverimage{
+    height: 130px;
+    width: 130px;
+  }
+  .reviewcard{
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 503px) {
   .emptydiv { 
     height:40px ;
+  }
+  .teamimage{
+    height: 130px;
+    width: 130px;
+  }
+  .teamatag{
+    font-size: 14px;
+  }
+  .teamlink{
+    font-size: 14px;
+  }
+  .leftofcard{
+    margin-bottom: 30px;
+  }
+  .biocontainer{
+    padding: 30px;
   }
 }
 @media only screen and (max-width: 386px) {
   .emptydiv { 
     height:20px ;
   }
+
 }

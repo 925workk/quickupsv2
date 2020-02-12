@@ -4,6 +4,7 @@ import Gettingstarted from '../../components/Gettingstarted';
 import Truckhome from '../../components/Truckhome';
 import Reviews from '../../components/Reviews';
 import Footer from '../../components/Footer';
+import Meettheteam from '../../components/Meettheteam';
 // import ClipLoader from "react-spinners/PulseLoader";
 // import { css } from "@emotion/core";
 // const override = css`
@@ -31,6 +32,7 @@ class SpinnerComponent extends React.Component {
             <Gettingstarted />
             <Truckhome />
             <Reviews />
+            <Meettheteam />
             <Footer />
           {/* <ClipLoader
             size={20}
