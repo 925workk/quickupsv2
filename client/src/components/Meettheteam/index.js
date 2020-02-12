@@ -125,7 +125,7 @@ const Meettheteam = () => {
                                             <p className='d-inline teamlink mr-3'>PORTFOLIO</p><i className="fa fa-suitcase fa-2x"></i>
                                         </a> */}
                                     </div>
-                                    <div className="col-md-5 d-inline mb-3">
+                                    <div className="col-md-5 d-inline pb-3">
                                         <div className="biocontainer">
                                             <h3>Nelson Knight</h3>
                                             <h4>Back End + DOM Render</h4>
