@@ -75,7 +75,7 @@ const Reviews = () => {
                         </div>
                     </div>
                     <div className='col-md-12'>
-                        <div className="card-deck mt-4 drivercardgroup text-center mx-auto">
+                        <div className="card-deck mt-4 drivercardgroup text-center mx-auto mb-3">
                             <div className="card drivercard">
                                 <img className="card-img-top driverimage" src="https://i.pinimg.com/736x/02/4b/c6/024bc6921cf802ea89285d38c8b8a667.jpg" alt="truckdriver"/>
                                 <div className="card-body">
@@ -90,7 +90,7 @@ const Reviews = () => {
                                 <p className="card-text">Bought a truck I couldn't afford. This helps me make my monthly payments! Super easy to use.</p>
                                 </div>
                             </div>
-                            <div className="card drivercard mb-3">
+                            <div className="card drivercard">
                                 <img className="card-img-top driverimage" src="https://atozhairstyles.com/wp-content/uploads/2017/07/15-Golden-Locks.jpg" alt="truckdriver2"/>
                                 <div className="card-body">
                                 <h5 className="card-title">Zachary (Driver)</h5>
