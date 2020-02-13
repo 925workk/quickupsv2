@@ -65,7 +65,9 @@ const Meettheteam = () => {
                                             <h4>User Authentication + Front End + Routing</h4>
                                             <a  className="bioemail" href="mailto:char.beaty11@gmail.com">Char.beaty11@gmail.com</a>
                                             <hr className="lightgreyline"></hr>
-                                            <p>I am a single mom of two beautiful young girls, so I am always busy but I love it! I am looking to get into a new career, and somehow coding fell into my lap.</p>
+                                            <p>Created user authentication and tested website to assure quality of application. Mother of 2 and 
+                                                graduate of the University of Utah Coding Bootcamp program.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
