@@ -3,7 +3,7 @@ import React from 'react';
 const Meettheteam = () => {
     return (
         <div>
-            <h1 className="text-center mt-5 mb-4 theteam display-4">The Team Behind Quick Ups</h1>
+            <h1 className="text-center mt-5 mb-4 theteam display-4">The Team Behind Quickups</h1>
             <h1 className="text-center mt-5 mb-4 nicetomeet display-4">Nice to meet you</h1>
                 <div className='container'>
                     <div className="card teamcard pt-4">
@@ -22,9 +22,9 @@ const Meettheteam = () => {
                                         </a>
                                         <br></br>
                                         <br></br>
-                                        <a className="teamatag" href='https://925work.github.io/polished-portfolio/' target="_blank">
+                                        {/* <a className="teamatag" href='https://925work.github.io/polished-portfolio/' target="_blank">
                                             <p className='d-inline teamlink mr-3'>PORTFOLIO</p><i className="fa fa-suitcase fa-2x"></i>
-                                        </a>
+                                        </a> */}
                                     </div>
                                     <div className="col-md-5 d-inline mb-3">
                                         <div className="biocontainer">

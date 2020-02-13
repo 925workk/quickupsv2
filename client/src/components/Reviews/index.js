@@ -6,7 +6,7 @@ const Reviews = () => {
             <div className='container'>
                 <div className='row'>
                     <h2 className='trucktitle col-md-12'>
-                        What people say about <h2 className='benefits d-inline'>Quick Ups</h2>
+                        What people say about <h2 className='benefits d-inline'>Quickups</h2>
                     </h2>
                 </div>
                 <div className="row">
@@ -22,7 +22,7 @@ const Reviews = () => {
                                 <i className="fa fa-star d-inline" aria-hidden="true"></i>
                                 <i className="fa fa-star d-inline" aria-hidden="true"></i>
                             </div>
-                            <p className="card-text">My Quick Ups driver did a great job moving my furniture! Very friendly, professional, and resourceful.</p>
+                            <p className="card-text">My Quickups driver did a great job moving my furniture! Very friendly, professional, and resourceful.</p>
                         </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Reviews = () => {
                                 <i className="fa fa-star-o d-inline" aria-hidden="true"></i>
                                 <i className="fa fa-star-o d-inline" aria-hidden="true"></i>
                             </div>
-                            <p className="card-text">I never rate anything over 1 star! Quick Ups was so great that I am going to actually give them a two star.</p>
+                            <p className="card-text">I never rate anything over 1 star! Quickups was so great that I am going to actually give them a two star.</p>
                         </div>
                         </div>
                     </div>

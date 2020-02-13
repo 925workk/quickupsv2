@@ -23,14 +23,14 @@ const Truckhome = () => {
                     <div className='col-md-6 joincontainer mt-5'>
                         <h2 className='join'>Join our team.</h2>
                         <h2 className='join'>Be your own <h2 className='joing d-inline'>boss.</h2></h2>
-                        <p className='driverinfo mb-4'>Become a driver with us and start claiming jobs now. With Quick Ups, you can claim any job you want, any time you want. You won't have a boss breathing down your neck the entire time. Build your own clientele  and keep all of the profits. Quick Ups takes NOTHING.</p>
+                        <p className='driverinfo mb-4'>Become a driver with us and start claiming jobs now. With Quickups, you can claim any job you want, any time you want. You won't have a boss breathing down your neck the entire time. Keep the profits. Take life into your own hands, and turn your truck into an asset today!</p>
                         <div className='container'>
                             <div className='row'>
                                 <div className="col-md-4 perks">
                                     <i className="fa fa-money fa-3x d-inline lighticons"></i>
                                     <div className="d-inline">
                                         <h5>KEEP TIPS</h5>
-                                        <h6>YOU keep all money/tips.</h6>
+                                        <h6>YOU keep 100% of your tips.</h6>
                                     </div>
                                 </div>
                                 <div className="col-md-4 perks">

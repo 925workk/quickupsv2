@@ -5,9 +5,9 @@ const Gettingstarted = () => {
         <div className="gettingstarted">
             <div className="container">
                 <div className="row">
-                    <h1 className="display-6 mt-4 text-center col-md-12 why">What is Quick Ups?</h1>
-                    <p className="whatis col-md-6 mb-5">Quick Ups matches delivery drivers with people who request big deliveries through our web app. Big deliveries includes things such as fridges, washers, dryers, furniture, TVs, etc.</p>
-                    <p className="whatis col-md-6 mb-5">Have a truck? Then start making money with Quick Ups now! Whether you’re trying to offset costs of your truck, cover this month’s bills, or fund your dreams, Quick Ups will get you there. Be your own boss.</p>
+                    <h1 className="display-6 mt-4 text-center col-md-12 why">What is Quickups?</h1>
+                    <p className="whatis col-md-6 mb-5">Quickups matches delivery drivers with people who request big deliveries through our web app. Big deliveries includes things such as fridges, washers, dryers, furniture, TVs, etc.</p>
+                    <p className="whatis col-md-6 mb-5">Have a truck? Then start making money with Quickups now! Whether you’re trying to offset costs of your truck, cover this month’s bills, or fund your dreams, Quickups will get you there. Be your own boss.</p>
                 </div>
             </div>    
             <div className="container">
